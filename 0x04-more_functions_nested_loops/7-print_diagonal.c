@@ -18,9 +18,9 @@ for (column = 0; column < n; column++)
 i = column - 1;
 
 for (space = 0; space <= i; space++)
-											_putchar(' ');
-											_putchar('\\');
-											_putchar('\n');
+_putchar(' ');
+_putchar('\\');
+_putchar('\n');
 											}
 }
 }
