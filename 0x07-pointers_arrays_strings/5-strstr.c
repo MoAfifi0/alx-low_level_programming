@@ -29,8 +29,7 @@ return (haystack);
 
 index++;
 
-}
-while (haystack[index] == needle[index]);
+} while (haystack[index] == needle[index]);
 }
 
 haystack++;
