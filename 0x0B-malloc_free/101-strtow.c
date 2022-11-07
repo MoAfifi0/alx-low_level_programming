@@ -43,7 +43,7 @@ for (index = 0; index < len; index++)
 if (*(str + index) != ' ')
 {
 words++;
-index += word_len(str + index)
+index += word_len(str + index);
 }
 }
 
